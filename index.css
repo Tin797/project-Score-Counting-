@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: #14093D;
+    width: 450px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    display: block;
+    font-size: 35px;
+    color: white;
+    margin: 20px;
+}
+.score{
+    text-align: center;
+    font-size: 60px;
+    color: #BD0000;
+    background-color: black;
+    margin: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
+.btn-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: #14093D;
+    color: white;
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
